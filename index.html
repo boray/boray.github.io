@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@700&display=swap');
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffffff;
+        }
+
+        .card {
+            width: 600px;
+            height: 350px;
+            background-color: white;
+            border: 1px solid black;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Enhanced shadow */
+            font-family: 'Times New Roman', serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); 
+            background-size: cover;
+        }
+
+        .card-header, .card-footer {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card-header div, .card-footer div {
+            font-size: 20px;
+            color: #000;
+        }
+
+        .card-title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .card-title small {
+            display: block;
+            font-size: 20px;
+            font-weight: normal;
+        }
+
+        .card-footer {
+            font-size: 16px;
+        }
+
+        a {
+            text-decoration: underline;
+            color: inherit; /* Inherit color from the surrounding text */
+            font-weight: normal;
+            cursor: pointer;
+        }
+
+        a:hover, a:visited, a:focus {
+            color: inherit; /* Ensures that no color changes on hover or click */
+            text-decoration: underline; /* Keeps the underline on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card" id="card">
+        <div class="card-header">
+            <div><a href="writings.html"  target="_blank" rel="noopener noreferrer">My Writings</a></div>
+            <div>O(1)Labs<br>Exploration Engineer</div>
+        </div>
+        <div class="card-title">
+            Boray Saygılıer<br>
+            <small>Lorem Ipsum</small>
+        </div>
+        <div class="card-footer">
+            <div>Boğaziçi University, Mathematics</div>
+            <div><a href="mailto:bsaygilier33@gmail.com">Email</a> | <a href="https://github.com/boray"  target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://www.linkedin.com/in/boraysaygilier/"  target="_blank" rel="noopener noreferrer">Linkedin</a></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Writings</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@700&display=swap');
+
+        body {
+            background-color: #ebebeb;
+            margin: 0;
+            font-family: 'Times New Roman', serif;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding-top: 50px;
+            background-image: "src/texture.png";
+            background-size: cover;
+        }
+
+        .container {
+            background-color: white;
+            border: 1px solid black;
+            width: 80%;
+            max-width: 800px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #000;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 20px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        /* Remove border from the last list item */
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+
+        p.date {
+            font-size: 14px;
+            color: #777;
+            margin: 5px 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Writings</h1>
+        <ul>
+            <li>
+                <a href="writings/paris/index.html" target="_blank">Paris Guide</a>
+                <p class="date">Published on August 10, 2024</p>
+            </li>
+            <li>
+                <a href="writings/paris.html" target="_blank">Paris Guide</a>
+                <p class="date">Published on August 10, 2024</p>
+            </li>
+            <li>
+                <a href="writings/paris.html" target="_blank">Paris Guide</a>
+                <p class="date">Published on August 10, 2024</p>
+            </li>
+            <!-- Add more blog posts here -->
+        </ul>
+    </div>
+
+</body>
+</html>
